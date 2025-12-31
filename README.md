@@ -1,0 +1,1 @@
+Aula31_do_Professor_José_Carlos_do__do_youtube_Canal_Querer_Aprender. Atenção os pinos de SDA e SCL foram alterados para SDA pino 27 (PC4) e SCL pino 28 (PC5) do micro AVR328P, para compilar o projeto recomendo fortissímo, usar o Microchip Studio, e tem como simular num Osciloscópio digital do software Proteus 8.9.
