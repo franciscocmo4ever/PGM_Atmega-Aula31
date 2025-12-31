@@ -1,0 +1,677 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+                              obj/Debug/Mod_Hw.o (__udivmodsi4)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o (exit)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                              obj/Debug/Mod_Hw.o (__do_copy_data)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                              obj/Debug/Mod_Hw.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+Cad_Seq_Led         0x1               obj/Debug/PGM_Atmega-Aula31.o
+Pont_Led            0x1               obj/Debug/PGM_Atmega-Aula31.o
+Reg_SW_Bkp          0x1               obj/Debug/PGM_Atmega-Aula31.o
+Mask                0x1               obj/Debug/PGM_Atmega-Aula31.o
+ctedelay100us       0x1               obj/Debug/PGM_Atmega-Aula31.o
+Bit_Ram_00          0x1               obj/Debug/Mod_Hw.o
+Bit_Ram_02          0x1               obj/Debug/Mod_Hw.o
+Dezena_Dsp7Seg      0x1               obj/Debug/PGM_Atmega-Aula31.o
+Reg_SW              0x1               obj/Debug/PGM_Atmega-Aula31.o
+Buffer_Uso_Geral    0x1               obj/Debug/PGM_Atmega-Aula31.o
+delayus             0x2               obj/Debug/PGM_Atmega-Aula31.o
+TChaves             0x1               obj/Debug/PGM_Atmega-Aula31.o
+Chaves              0x1               obj/Debug/PGM_Atmega-Aula31.o
+Unid_Dsp7Seg        0x1               obj/Debug/PGM_Atmega-Aula31.o
+nClock              0x1               obj/Debug/PGM_Atmega-Aula31.o
+Bit_Ram_01          0x1               obj/Debug/Mod_Hw.o
+LeitDS1307          0x1               obj/Debug/PGM_Atmega-Aula31.o
+Data_Usart          0x1               obj/Debug/PGM_Atmega-Aula31.o
+Display             0x1               obj/Debug/PGM_Atmega-Aula31.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+LOAD obj/Debug/fuse.o
+LOAD obj/Debug/Mod_Hw.o
+LOAD obj/Debug/Mod_Ini.o
+LOAD obj/Debug/PGM_Atmega-Aula31.o
+LOAD /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                0x0000000000000400                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x2644
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000000000000068                . = ALIGN (0x2)
+                0x0000000000000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000068        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data  0x0000000000000068       0x2a obj/Debug/PGM_Atmega-Aula31.o
+                0x0000000000000068                Tab_DSP7Seg_Num
+                0x0000000000000073                Tab_DSP7Seg_Letra
+                0x0000000000000082                Tab_Num_Hex
+                0x0000000000000092                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000092                __ctors_start = .
+ *(.ctors)
+                0x0000000000000092                __ctors_end = .
+                0x0000000000000092                __dtors_start = .
+ *(.dtors)
+                0x0000000000000092                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000092        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000092                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000092        0xc /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000000000009e       0x16 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                0x000000000000009e                __do_copy_data
+ .init4         0x00000000000000b4       0x10 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000000b4                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000000c4        0x8 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000000cc        0x4 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000000cc                __vector_22
+                0x00000000000000cc                __vector_1
+                0x00000000000000cc                __vector_24
+                0x00000000000000cc                __vector_12
+                0x00000000000000cc                __bad_interrupt
+                0x00000000000000cc                __vector_6
+                0x00000000000000cc                __vector_3
+                0x00000000000000cc                __vector_23
+                0x00000000000000cc                __vector_25
+                0x00000000000000cc                __vector_11
+                0x00000000000000cc                __vector_13
+                0x00000000000000cc                __vector_17
+                0x00000000000000cc                __vector_19
+                0x00000000000000cc                __vector_7
+                0x00000000000000cc                __vector_5
+                0x00000000000000cc                __vector_4
+                0x00000000000000cc                __vector_9
+                0x00000000000000cc                __vector_2
+                0x00000000000000cc                __vector_21
+                0x00000000000000cc                __vector_15
+                0x00000000000000cc                __vector_8
+                0x00000000000000cc                __vector_14
+                0x00000000000000cc                __vector_10
+                0x00000000000000cc                __vector_16
+                0x00000000000000cc                __vector_18
+                0x00000000000000cc                __vector_20
+ .text          0x00000000000000d0        0x0 obj/Debug/fuse.o
+ .text          0x00000000000000d0     0x106c obj/Debug/Mod_Hw.o
+                0x00000000000000d0                Teste_Sysbit
+                0x0000000000000114                Config_ADC
+                0x00000000000001b2                Le_ADC
+                0x000000000000022c                Calcula_Check_Sum
+                0x00000000000002a2                LCD_Num_Hex
+                0x0000000000000386                Escreve_Num_LCD
+                0x00000000000004ec                Buzzer_On
+                0x0000000000000560                Wait
+                0x00000000000005a6                Set_Portbit
+                0x00000000000006f4                Clr_Portbit
+                0x000000000000084c                Cpl_Portbit
+                0x000000000000099a                Setbit
+                0x0000000000000a3c                Clrbit
+                0x0000000000000ade                TesteBit
+                0x0000000000000b8a                Cplbit
+                0x0000000000000c2c                Config_Portbit
+                0x0000000000000eac                Inicilaiza_LCD
+                0x0000000000000f0e                Move_Cursor
+                0x0000000000000f50                Escreve_String_LCD
+                0x0000000000001004                Mens_LCD
+                0x0000000000001054                EnvDataLCD
+                0x00000000000010a0                EnvCmdLCD
+                0x00000000000010e4                EnvCaracterEspecialLCD
+ .text          0x000000000000113c       0x78 obj/Debug/Mod_Ini.o
+                0x000000000000113c                Ini_System
+ .text          0x00000000000011b4     0x1448 obj/Debug/PGM_Atmega-Aula31.o
+                0x00000000000011b4                main
+                0x00000000000011f6                I2C_Control_Write
+                0x0000000000001a5e                I2C_Control_Read
+ .text          0x00000000000025fc        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x00000000000025fc        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text          0x00000000000025fc        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text          0x00000000000025fc        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000025fc                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc.mul
+                0x00000000000025fc        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x00000000000025fc       0x44 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+                0x00000000000025fc                __udivmodsi4
+ .text.libgcc   0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000002640                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000002640        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                0x0000000000002640                exit
+                0x0000000000002640                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000002640        0x4 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000002644                _etext = .
+
+.data           0x0000000000800100       0x14 load address 0x0000000000002644
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ .data          0x0000000000800100        0x0 obj/Debug/fuse.o
+ .data          0x0000000000800100        0x0 obj/Debug/Mod_Hw.o
+ .data          0x0000000000800100        0x0 obj/Debug/Mod_Ini.o
+ .data          0x0000000000800100        0x0 obj/Debug/PGM_Atmega-Aula31.o
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.rodata)
+ .rodata        0x0000000000800100        0x6 obj/Debug/Mod_Hw.o
+ .rodata        0x0000000000800106        0xe obj/Debug/PGM_Atmega-Aula31.o
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0000000000800114                . = ALIGN (0x2)
+                0x0000000000800114                _edata = .
+                0x0000000000800114                PROVIDE (__data_end, .)
+
+.bss            0x0000000000800114       0x14
+                0x0000000000800114                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0000000000800114        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x0000000000800114        0x0 obj/Debug/fuse.o
+ .bss           0x0000000000800114        0x0 obj/Debug/Mod_Hw.o
+ .bss           0x0000000000800114        0x0 obj/Debug/Mod_Ini.o
+ .bss           0x0000000000800114        0x0 obj/Debug/PGM_Atmega-Aula31.o
+ .bss           0x0000000000800114        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000800114        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000800114        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000800114        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0000000000800114        0x3 obj/Debug/Mod_Hw.o
+                0x0000000000800114                Bit_Ram_00
+                0x0000000000800115                Bit_Ram_02
+                0x0000000000800116                Bit_Ram_01
+ COMMON         0x0000000000800117       0x11 obj/Debug/PGM_Atmega-Aula31.o
+                0x0000000000800117                Cad_Seq_Led
+                0x0000000000800118                Pont_Led
+                0x0000000000800119                Reg_SW_Bkp
+                0x000000000080011a                Mask
+                0x000000000080011b                ctedelay100us
+                0x000000000080011c                Dezena_Dsp7Seg
+                0x000000000080011d                Reg_SW
+                0x000000000080011e                Buffer_Uso_Geral
+                0x000000000080011f                delayus
+                0x0000000000800121                TChaves
+                0x0000000000800122                Chaves
+                0x0000000000800123                Unid_Dsp7Seg
+                0x0000000000800124                nClock
+                0x0000000000800125                LeitDS1307
+                0x0000000000800126                Data_Usart
+                0x0000000000800127                Display
+                0x0000000000800128                PROVIDE (__bss_end, .)
+                0x0000000000002644                __data_load_start = LOADADDR (.data)
+                0x0000000000002658                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800128        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800128                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse           0x0000000000820000        0x3
+ *(.fuse)
+ .fuse          0x0000000000820000        0x3 obj/Debug/fuse.o
+                0x0000000000820000                __fuse
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x0000000000000000     0x3b58
+ *(.stab)
+ .stab          0x0000000000000000      0x480 obj/Debug/fuse.o
+ .stab          0x0000000000000480     0x1a58 obj/Debug/Mod_Hw.o
+                                       0x1c20 (size before relaxing)
+ .stab          0x0000000000001ed8      0x390 obj/Debug/Mod_Ini.o
+                                        0x558 (size before relaxing)
+ .stab          0x0000000000002268     0x18f0 obj/Debug/PGM_Atmega-Aula31.o
+                                       0x1ab8 (size before relaxing)
+
+.stabstr        0x0000000000000000     0x1369
+ *(.stabstr)
+ .stabstr       0x0000000000000000     0x1369 obj/Debug/fuse.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 obj/Debug/fuse.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 obj/Debug/Mod_Hw.o
+ .comment       0x0000000000000011       0x12 obj/Debug/Mod_Ini.o
+ .comment       0x0000000000000011       0x12 obj/Debug/PGM_Atmega-Aula31.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(bin/Debug/PGM_Atmega_Aula_31.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+Bit_Ram_00                                        obj/Debug/PGM_Atmega-Aula31.o
+                                                  obj/Debug/Mod_Ini.o
+                                                  obj/Debug/Mod_Hw.o
+Bit_Ram_01                                        obj/Debug/PGM_Atmega-Aula31.o
+                                                  obj/Debug/Mod_Ini.o
+                                                  obj/Debug/Mod_Hw.o
+Bit_Ram_02                                        obj/Debug/PGM_Atmega-Aula31.o
+                                                  obj/Debug/Mod_Ini.o
+                                                  obj/Debug/Mod_Hw.o
+Buffer_Uso_Geral                                  obj/Debug/PGM_Atmega-Aula31.o
+Buzzer_On                                         obj/Debug/Mod_Hw.o
+Cad_Seq_Led                                       obj/Debug/PGM_Atmega-Aula31.o
+Calcula_Check_Sum                                 obj/Debug/Mod_Hw.o
+Chaves                                            obj/Debug/PGM_Atmega-Aula31.o
+                                                  obj/Debug/Mod_Ini.o
+Clr_Portbit                                       obj/Debug/Mod_Hw.o
+                                                  obj/Debug/PGM_Atmega-Aula31.o
+Clrbit                                            obj/Debug/Mod_Hw.o
+Config_ADC                                        obj/Debug/Mod_Hw.o
+Config_Portbit                                    obj/Debug/Mod_Hw.o
+                                                  obj/Debug/PGM_Atmega-Aula31.o
+Cpl_Portbit                                       obj/Debug/Mod_Hw.o
+Cplbit                                            obj/Debug/Mod_Hw.o
+Data_Usart                                        obj/Debug/PGM_Atmega-Aula31.o
+Dezena_Dsp7Seg                                    obj/Debug/PGM_Atmega-Aula31.o
+Display                                           obj/Debug/PGM_Atmega-Aula31.o
+EnvCaracterEspecialLCD                            obj/Debug/Mod_Hw.o
+EnvCmdLCD                                         obj/Debug/Mod_Hw.o
+EnvDataLCD                                        obj/Debug/Mod_Hw.o
+Escreve_Num_LCD                                   obj/Debug/Mod_Hw.o
+Escreve_String_LCD                                obj/Debug/Mod_Hw.o
+                                                  obj/Debug/PGM_Atmega-Aula31.o
+I2C_Control_Read                                  obj/Debug/PGM_Atmega-Aula31.o
+I2C_Control_Write                                 obj/Debug/PGM_Atmega-Aula31.o
+Ini_System                                        obj/Debug/Mod_Ini.o
+                                                  obj/Debug/PGM_Atmega-Aula31.o
+Inicilaiza_LCD                                    obj/Debug/Mod_Hw.o
+                                                  obj/Debug/Mod_Ini.o
+LCD_Num_Hex                                       obj/Debug/Mod_Hw.o
+Le_ADC                                            obj/Debug/Mod_Hw.o
+LeitDS1307                                        obj/Debug/PGM_Atmega-Aula31.o
+Mask                                              obj/Debug/PGM_Atmega-Aula31.o
+Mens_LCD                                          obj/Debug/Mod_Hw.o
+Move_Cursor                                       obj/Debug/Mod_Hw.o
+Pont_Led                                          obj/Debug/PGM_Atmega-Aula31.o
+Reg_SW                                            obj/Debug/PGM_Atmega-Aula31.o
+                                                  obj/Debug/Mod_Ini.o
+Reg_SW_Bkp                                        obj/Debug/PGM_Atmega-Aula31.o
+Set_Portbit                                       obj/Debug/Mod_Hw.o
+                                                  obj/Debug/PGM_Atmega-Aula31.o
+Setbit                                            obj/Debug/Mod_Hw.o
+TChaves                                           obj/Debug/PGM_Atmega-Aula31.o
+Tab_DSP7Seg_Letra                                 obj/Debug/PGM_Atmega-Aula31.o
+Tab_DSP7Seg_Num                                   obj/Debug/PGM_Atmega-Aula31.o
+Tab_Num_Hex                                       obj/Debug/PGM_Atmega-Aula31.o
+                                                  obj/Debug/Mod_Hw.o
+TesteBit                                          obj/Debug/Mod_Hw.o
+Teste_Sysbit                                      obj/Debug/Mod_Hw.o
+Unid_Dsp7Seg                                      obj/Debug/PGM_Atmega-Aula31.o
+Wait                                              obj/Debug/Mod_Hw.o
+                                                  obj/Debug/PGM_Atmega-Aula31.o
+__bad_interrupt                                   /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__bss_end                                         /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                                                  obj/Debug/PGM_Atmega-Aula31.o
+                                                  obj/Debug/Mod_Ini.o
+                                                  obj/Debug/Mod_Hw.o
+__do_copy_data                                    /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                                                  obj/Debug/PGM_Atmega-Aula31.o
+                                                  obj/Debug/Mod_Hw.o
+__fuse                                            obj/Debug/fuse.o
+__heap_end                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__init                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__stack                                           /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__udivmodsi4                                      /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+                                                  obj/Debug/Mod_Hw.o
+__vector_1                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_10                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_11                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_12                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_13                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_14                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_15                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_16                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_17                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_18                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_19                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_2                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_20                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_21                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_22                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_23                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_24                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_25                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_3                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_4                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_5                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_6                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_7                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_8                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_9                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_default                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vectors                                         /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+_exit                                             /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ctedelay100us                                     obj/Debug/PGM_Atmega-Aula31.o
+delayus                                           obj/Debug/PGM_Atmega-Aula31.o
+exit                                              /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+main                                              obj/Debug/PGM_Atmega-Aula31.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+nClock                                            obj/Debug/PGM_Atmega-Aula31.o
